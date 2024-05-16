@@ -39,22 +39,22 @@ export const examples: Record<string, Example[]> = {
     },
     {
       command: 'affected -t build --tag=$NX_TASK_TARGET_PROJECT:latest',
-      description: 'Use the currently executing project name in your command.',
+      description: 'Use the currently executing project name in your command',
     },
 
     {
       command: 'affected -t=build --graph',
-      description: 'Preview the task graph that Nx would run inside a webview.',
+      description: 'Preview the task graph that Nx would run inside a webview',
     },
 
     {
       command: 'affected -t=build --graph=output.json',
-      description: 'Save the task graph to a file.',
+      description: 'Save the task graph to a file',
     },
 
     {
       command: 'affected -t=build --graph=stdout',
-      description: 'Print the task graph to the console.',
+      description: 'Print the task graph to the console',
     },
   ],
   'affected:test': [
@@ -246,17 +246,17 @@ export const examples: Record<string, Example[]> = {
 
     {
       command: 'run-many -t=build --graph',
-      description: 'Preview the task graph that Nx would run inside a webview.',
+      description: 'Preview the task graph that Nx would run inside a webview',
     },
 
     {
       command: 'run-many -t=build --graph=output.json',
-      description: 'Save the task graph to a file.',
+      description: 'Save the task graph to a file',
     },
 
     {
       command: 'run-many -t=build --graph=stdout',
-      description: 'Print the task graph to the console.',
+      description: 'Print the task graph to the console',
     },
   ],
   run: [
@@ -273,23 +273,23 @@ export const examples: Record<string, Example[]> = {
 
     {
       command: 'run myapp:build --graph',
-      description: 'Preview the task graph that Nx would run inside a webview.',
+      description: 'Preview the task graph that Nx would run inside a webview',
     },
 
     {
       command: 'run myapp:build --graph=output.json',
-      description: 'Save the task graph to a file.',
+      description: 'Save the task graph to a file',
     },
 
     {
       command: 'run myapp:build --graph=stdout',
-      description: 'Print the task graph to the console.',
+      description: 'Print the task graph to the console',
     },
 
     {
       command: 'run myapp:"build:test"',
       description:
-        'Run\'s a target named build:test for the myapp project. Note the quotes around the target name to prevent "test" from being considered a configuration.',
+        'Run\'s a target named build:test for the myapp project. Note the quotes around the target name to prevent "test" from being considered a configuration',
     },
   ],
   migrate: [
@@ -350,7 +350,7 @@ export const examples: Record<string, Example[]> = {
     {
       command: 'show projects --projects api-*',
       description:
-        'Show all projects with names starting with "api-". The "projects" option is useful to see which projects would be selected by run-many.',
+        'Show all projects with names starting with "api-". The "projects" option is useful to see which projects would be selected by run-many',
     },
 
     {
@@ -376,13 +376,12 @@ export const examples: Record<string, Example[]> = {
 
     {
       command: 'show project my-app',
-      description: 'Show detailed information about "my-app" in a json format.',
+      description: 'Show detailed information about "my-app" in a json format',
     },
 
     {
       command: 'show project my-app --json false',
-      description:
-        'Show information about "my-app" in a human readable format.',
+      description: 'Show information about "my-app" in a human readable format',
     },
 
     {
